@@ -1,0 +1,115 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:customfont="http://schemas.android.com/apk/res/com.sride"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sliding_background_color" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        android:orientation="vertical" >
+
+        <com.utils.CustomTextView
+            android:id="@+id/txtHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="@string/home"
+            android:textSize="@dimen/sliding_label"
+            customfont:type="normal" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/transparent" />
+
+        <com.utils.CustomTextView
+            android:id="@+id/txtDashboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="@string/dashboard"
+            android:textSize="@dimen/sliding_label"
+            customfont:type="normal" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/transparent" />
+
+        <com.utils.CustomTextView
+            android:id="@+id/txtTrips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="@string/trips"
+            android:textSize="@dimen/sliding_label"
+            customfont:type="normal" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/transparent" />
+
+        <com.utils.CustomTextView
+            android:id="@+id/txtRequests"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="@string/requests"
+            android:textSize="@dimen/sliding_label"
+            customfont:type="normal" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/transparent" />
+
+        <com.utils.CustomTextView
+            android:id="@+id/txtProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="@string/profile"
+            android:textSize="@dimen/sliding_label"
+            customfont:type="normal" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/transparent" />
+
+        <com.utils.CustomTextView
+            android:id="@+id/txtPayment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="@string/payment"
+            android:textSize="@dimen/sliding_label"
+            customfont:type="normal" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/transparent" />
+
+        <com.utils.CustomTextView
+            android:id="@+id/txtLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="@string/logout"
+            android:textSize="@dimen/sliding_label"
+            customfont:type="normal" />
+    </LinearLayout>
+
+</FrameLayout>

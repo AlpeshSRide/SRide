@@ -4,5 +4,14 @@
     <string name="app_name">SRide</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="home">Home</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="trips">Trips</string>
+    <string name="requests">Requests</string>
+    <string name="profile">Profile</string>
+    <string name="payment">Payment</string>
+    <string name="logout">Logout</string>
+    <string name="i_am_rider">I am Rider</string>
+    <string name="i_am_driver">I am Driver</string>
 
 </resources>

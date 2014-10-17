@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default Android Colors -->
+
+    <color name="white">@android:color/white</color>
+    <color name="black">@android:color/black</color>
+    <color name="darker_gray">@android:color/darker_gray</color>
+
+    <!-- Custom Colors -->
+
+    <color name="transparent">#00000000</color>
+    <color name="whitecolor">#FFFFFF</color>
+    <color name="semi_transparent">#80000000</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+    <color name="blue">#0000FF</color>
+
+    <!-- Sliding Menu Colors -->
+    <color name="sliding_strip_color">#2D2D2D</color>
+    <color name="sliding_background_color">#3D3D3D</color>
+    <color name="app_color">#F89B33</color>
+    <color name="segment_back_color">#EDEEF0</color>
+
+</resources>
