@@ -46,7 +46,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.sride.home.BaseActivity"
+            android:name="com.sride.BaseActivity"
             android:screenOrientation="portrait" >
         </activity>
 

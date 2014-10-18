@@ -13,5 +13,7 @@
     <string name="logout">Logout</string>
     <string name="i_am_rider">I am Rider</string>
     <string name="i_am_driver">I am Driver</string>
+    <string name="create_trip">Create Trip</string>
+    <string name="search">Search</string>
 
 </resources>

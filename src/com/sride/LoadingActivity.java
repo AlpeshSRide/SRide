@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.app.FragmentActivity;
 
-import com.sride.home.BaseActivity;
 import com.utils.StaticData;
 
 public class LoadingActivity extends FragmentActivity {

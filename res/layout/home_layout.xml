@@ -14,6 +14,65 @@
 
         <include layout="@layout/topbar" />
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/segment_back_color"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+
+            <com.utils.CustomTextView
+                android:id="@+id/txtDriver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_left_segment_selector"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="@string/i_am_driver"
+                android:textColor="@color/segment_color_selector"
+                android:textSize="@dimen/sliding_label"
+                customfont:type="normal" />
+
+            <com.utils.CustomTextView
+                android:id="@+id/txtRider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_right_segment_selector"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="@string/i_am_rider"
+                android:textColor="@color/segment_color_selector"
+                android:textSize="@dimen/sliding_label"
+                customfont:type="normal" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/app_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/search_back_color"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <EditText
+                android:id="@+id/editSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/search_background"
+                android:gravity="left"
+                android:hint="@string/search"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sliding_label" />
+        </LinearLayout>
+
         <com.utils.map.MapWrapperLayout
             android:id="@+id/map_relative_layout"
             android:layout_width="match_parent"
@@ -25,6 +84,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_below="@+id/top" >
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/marker" >
+                </ImageView>
             </FrameLayout>
         </com.utils.map.MapWrapperLayout>
     </LinearLayout>

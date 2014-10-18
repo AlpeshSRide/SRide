@@ -138,8 +138,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int darker_gray=0x7f050002;
         public static final int green=0x7f050007;
         public static final int red=0x7f050006;
+        public static final int search_back_color=0x7f05000d;
+        public static final int search_back_color_light=0x7f05000e;
         public static final int segment_back_color=0x7f05000c;
-        public static final int segment_color_selector=0x7f05000d;
+        public static final int segment_color_selector=0x7f05000f;
         public static final int semi_transparent=0x7f050005;
         public static final int sliding_background_color=0x7f05000a;
         /**  Sliding Menu Colors 
@@ -180,37 +182,43 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int appcolor_left_bottom=0x7f020000;
         public static final int appcolor_right_bottom=0x7f020001;
         public static final int ic_launcher=0x7f020002;
-        public static final int menu=0x7f020003;
-        public static final int slider_shadow=0x7f020004;
-        public static final int sliding_strip_selector=0x7f020005;
-        public static final int splash=0x7f020006;
-        public static final int white_left_bottom=0x7f020007;
-        public static final int white_left_segment_selector=0x7f020008;
-        public static final int white_right_bottom=0x7f020009;
+        public static final int marker=0x7f020003;
+        public static final int menu=0x7f020004;
+        public static final int search_background=0x7f020005;
+        public static final int slider_shadow=0x7f020006;
+        public static final int sliding_strip_selector=0x7f020007;
+        public static final int splash=0x7f020008;
+        public static final int white_left_bottom=0x7f020009;
+        public static final int white_left_segment_selector=0x7f02000a;
+        public static final int white_right_bottom=0x7f02000b;
+        public static final int white_right_segment_selector=0x7f02000c;
     }
     public static final class id {
-        public static final int action_settings=0x7f040015;
-        public static final int btnMenu=0x7f040013;
-        public static final int frame_container=0x7f040014;
+        public static final int action_settings=0x7f040018;
+        public static final int btnMenu=0x7f040016;
+        public static final int editSearch=0x7f040009;
+        public static final int frame_container=0x7f040017;
         public static final int fullscreen=0x7f040003;
         public static final int home_container=0x7f040006;
         public static final int left=0x7f040000;
-        public static final int mapContainer=0x7f040008;
-        public static final int map_relative_layout=0x7f040007;
+        public static final int mapContainer=0x7f04000b;
+        public static final int map_relative_layout=0x7f04000a;
         public static final int margin=0x7f040002;
         public static final int normal=0x7f040005;
         public static final int right=0x7f040001;
         public static final int selected_view=0x7f040004;
-        public static final int slidingmenumain=0x7f040011;
-        public static final int top=0x7f040009;
-        public static final int txtDashboard=0x7f04000b;
-        public static final int txtHome=0x7f04000a;
-        public static final int txtLogout=0x7f040010;
-        public static final int txtPayment=0x7f04000f;
-        public static final int txtProfile=0x7f04000e;
-        public static final int txtRequests=0x7f04000d;
-        public static final int txtTitle=0x7f040012;
-        public static final int txtTrips=0x7f04000c;
+        public static final int slidingmenumain=0x7f040014;
+        public static final int top=0x7f04000c;
+        public static final int txtDashboard=0x7f04000e;
+        public static final int txtDriver=0x7f040007;
+        public static final int txtHome=0x7f04000d;
+        public static final int txtLogout=0x7f040013;
+        public static final int txtPayment=0x7f040012;
+        public static final int txtProfile=0x7f040011;
+        public static final int txtRequests=0x7f040010;
+        public static final int txtRider=0x7f040008;
+        public static final int txtTitle=0x7f040015;
+        public static final int txtTrips=0x7f04000f;
     }
     public static final class layout {
         public static final int activity_loading=0x7f030000;
@@ -227,6 +235,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     public static final class string {
         public static final int action_settings=0x7f070001;
         public static final int app_name=0x7f070000;
+        public static final int create_trip=0x7f07000c;
         public static final int dashboard=0x7f070004;
         public static final int hello_world=0x7f070002;
         public static final int home=0x7f070003;
@@ -236,6 +245,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int payment=0x7f070008;
         public static final int profile=0x7f070007;
         public static final int requests=0x7f070006;
+        public static final int search=0x7f07000d;
         public static final int trips=0x7f070005;
     }
     public static final class style {

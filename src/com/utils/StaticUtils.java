@@ -127,7 +127,7 @@ public class StaticUtils {
 		String str = "";
 		switch (index) {
 		case 0:
-			str = "fonts/HelveticaNeueLTStd_35_Thin.otf";
+			str = "fonts/Trebuchet_MS.ttf";
 			break;
 		case 1:
 			str = "fonts/HelveticaNeueLTStd_45lite.otf";
